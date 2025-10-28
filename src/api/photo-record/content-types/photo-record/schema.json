@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photo_records",
+  "info": {
+    "singularName": "photo-record",
+    "pluralName": "photo-records",
+    "displayName": "Photo_Records"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tag_Id": {
+      "type": "string"
+    },
+    "Animal_type": {
+      "type": "string"
+    },
+    "Photo_Date": {
+      "type": "date"
+    },
+    "Photo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Weight": {
+      "type": "string"
+    },
+    "Healthy_Notes": {
+      "type": "text"
+    },
+    "Body_Condition_Score": {
+      "type": "enumeration",
+      "enum": [
+        "Poor",
+        "Thin",
+        "Ideal",
+        "Fat",
+        "Obese"
+      ]
+    },
+    "General_Observations": {
+      "type": "text"
+    }
+  }
+}

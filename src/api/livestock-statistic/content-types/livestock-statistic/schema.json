@@ -1,0 +1,95 @@
+{
+  "kind": "collectionType",
+  "collectionName": "livestock_statistics",
+  "info": {
+    "singularName": "livestock-statistic",
+    "pluralName": "livestock-statistics",
+    "displayName": "Livestock Statistics"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "animal": {
+      "type": "enumeration",
+      "enum": [
+        "sheep",
+        "goats",
+        "rabbits"
+      ]
+    },
+    "maleAdults": {
+      "type": "integer"
+    },
+    "femaleAdults": {
+      "type": "integer"
+    },
+    "maleWeaners": {
+      "type": "integer"
+    },
+    "femaleWeaners": {
+      "type": "integer"
+    },
+    "maleKids": {
+      "type": "integer"
+    },
+    "femaleKids": {
+      "type": "integer"
+    },
+    "birthMale": {
+      "type": "integer"
+    },
+    "birthFemale": {
+      "type": "integer"
+    },
+    "totalBirths": {
+      "type": "integer"
+    },
+    "purchaseMale": {
+      "type": "integer"
+    },
+    "purchaseFemale": {
+      "type": "integer"
+    },
+    "totalPurchases": {
+      "type": "integer"
+    },
+    "deathMaleAdult": {
+      "type": "integer"
+    },
+    "deathFemaleAdult": {
+      "type": "integer"
+    },
+    "deathMaleWeaner": {
+      "type": "integer"
+    },
+    "deathFemaleWeaner": {
+      "type": "integer"
+    },
+    "deathMaleKids": {
+      "type": "integer"
+    },
+    "deathFemaleKids": {
+      "type": "integer"
+    },
+    "totalDeaths": {
+      "type": "integer"
+    },
+    "trend": {
+      "type": "enumeration",
+      "enum": [
+        "Up",
+        "Down",
+        "Stable"
+      ]
+    },
+    "trendValue": {
+      "type": "integer"
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

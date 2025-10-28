@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inventory_stock_lists",
+  "info": {
+    "singularName": "inventory-stock-list",
+    "pluralName": "inventory-stock-lists",
+    "displayName": "Inventory_Stock_List"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Item_Name": {
+      "type": "string",
+      "required": true
+    },
+    "Current_Stock": {
+      "type": "string"
+    },
+    "Minimum_Required": {
+      "type": "string"
+    },
+    "Status_of_Inventory": {
+      "type": "enumeration",
+      "enum": [
+        "Good",
+        "Low Stock",
+        "Reorder Now"
+      ]
+    }
+  }
+}

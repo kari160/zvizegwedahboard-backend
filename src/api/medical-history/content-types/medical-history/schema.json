@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medical_histories",
+  "info": {
+    "singularName": "medical-history",
+    "pluralName": "medical-histories",
+    "displayName": "Dipping_and_Medical_History"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Animal_Id": {
+      "type": "string"
+    },
+    "Animal_Type": {
+      "type": "string",
+      "required": true
+    },
+    "Treatment_Date": {
+      "type": "date",
+      "required": true
+    },
+    "Condition_or_Diagnosis": {
+      "type": "text"
+    },
+    "Treatment_Given": {
+      "type": "text"
+    },
+    "Dosage": {
+      "type": "text"
+    },
+    "Vet_Name": {
+      "type": "string"
+    },
+    "Next_Checkup_or_Dipping_Date": {
+      "type": "date"
+    },
+    "Status_of_livestock": {
+      "type": "enumeration",
+      "enum": [
+        "Treated",
+        "Under Observation",
+        "Critical",
+        "Recovered"
+      ]
+    }
+  }
+}

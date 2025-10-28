@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "crops_in_fields",
+  "info": {
+    "singularName": "crops-in-field",
+    "pluralName": "crops-in-fields",
+    "displayName": "Crops-in-field"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Crop_Type": {
+      "type": "string",
+      "required": true
+    },
+    "Land_Size": {
+      "type": "string"
+    },
+    "Date_Planted": {
+      "type": "date",
+      "required": true
+    },
+    "Date_Of_Expected_Harvest": {
+      "type": "date"
+    },
+    "Expected_Yield": {
+      "type": "string"
+    }
+  }
+}

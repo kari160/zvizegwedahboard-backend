@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "financial_summaries",
+  "info": {
+    "singularName": "financial-summary",
+    "pluralName": "financial-summaries",
+    "displayName": "Financial_Summary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "string"
+    },
+    "Budget": {
+      "type": "string"
+    },
+    "Variance": {
+      "type": "string"
+    },
+    "Actual": {
+      "type": "string"
+    }
+  }
+}

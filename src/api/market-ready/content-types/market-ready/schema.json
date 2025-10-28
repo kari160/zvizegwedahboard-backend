@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "market_readies",
+  "info": {
+    "singularName": "market-ready",
+    "pluralName": "market-readies",
+    "displayName": "market-ready"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "animal": {
+      "type": "enumeration",
+      "enum": [
+        "sheep",
+        "goats",
+        "rabbits"
+      ]
+    },
+    "count": {
+      "type": "integer"
+    },
+    "avgWeight": {
+      "type": "string"
+    },
+    "avgAge": {
+      "type": "string"
+    }
+  }
+}
