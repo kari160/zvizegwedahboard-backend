@@ -4,24 +4,25 @@
   "info": {
     "singularName": "financial-summary",
     "pluralName": "financial-summaries",
-    "displayName": "Financial_Summary"
+    "displayName": "Financial Summary"
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
   "attributes": {
-    "Category": {
-      "type": "string"
-    },
-    "Budget": {
-      "type": "string"
-    },
-    "Variance": {
-      "type": "string"
-    },
-    "Actual": {
-      "type": "string"
-    }
+    "opex_inputs": { "type": "decimal" },
+    "personnel": { "type": "decimal" },
+    "utilities": { "type": "decimal" },
+    "livestock_and_feed": { "type": "decimal" },
+
+    "administration_subtotal": { "type": "decimal" },
+
+    "capex_machinery_equipment": { "type": "decimal" },
+    "land_and_buildings": { "type": "decimal" },
+    "biological_assets": { "type": "decimal" },
+
+    "capex_subtotal": { "type": "decimal" },
+
+    "grand_total": { "type": "decimal" }
   }
 }
